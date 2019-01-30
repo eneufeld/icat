@@ -1,13 +1,14 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Export Xml
-Bundle-SymbolicName: com.eclipsesource.icat.export.xml
+Bundle-SymbolicName: com.eclipsesource.icat.export.xml;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: ECLIPSESOURCE
 Automatic-Module-Name: com.eclipsesource.icat.export.xml
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.emf.ecore,
  com.eclipsesource.icat.schemaxml.model,
- org.eclipse.emf.ecore.xmi
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.equinox.app
 Bundle-ActivationPolicy: lazy
 Export-Package: com.eclipsesource.icat.exportxml
